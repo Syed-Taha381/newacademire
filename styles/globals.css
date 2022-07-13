@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&display=swap);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+  max-width: 100%;
+  width: 85.5%;
+  margin: auto;
+}
+
+.black-bg {
+  background-color: #171717;
+}
+
+.white-text {
+  color: #f5f5f5;
+}
+
+.pure-white {
+  color: #f5f5f5;
+}
+
+.menu-shadow {
+  background-color: #262626;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(255 255 255 / 20%);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+
+.Typewriter {
+  margin-left: 12px;
+  margin-top: -27px;
+}
+
+.Typewriter__wrapper {
+  background-color: #fefce8;
+}
+
+.Typewriter__cursor {
+  font-size: 93px;
+}
+
+.bg-tutorial {
+  background-color: #fafafa;
+}
+
+.menu-icon-color {
+  color: #262626;
+}
+
+.hover-dropdwon {
+  opacity: 0;
+  pointer-events: none;
+  transition-delay: .2s;
+}
+
+.drop-down:hover .hover-dropdwon {
+  opacity: 1 !important;
+  pointer-events: initial;
+  transition-delay: .3s;
+}
+
+.drop-down::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  background-color: transparent;
+  top: 22px;
+  left: 0;
+  z-index: 90;
+}
+
+.playground-menu-hover {
+  left: -50%;
+  transform: translate(-27%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.playground-menu:hover .playground-menu-hover {
+  opacity: 1 !important;
+  pointer-events: initial;
+  transition-delay: .3s;
+}
+
+.playground-menu::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  background-color: transparent;
+  top: 22px;
+  left: 0;
+  z-index: 90;
+}
+
+.all-button {
+  background: linear-gradient(to right, #5DAB46, #2DB676) !important;
+}
+
+.all-button:hover {
+  background: linear-gradient(to right, #2DB676, #5DAB46) !important;
+}
+
+.gradient-color {
+  color: #5DAB46 !important;
+  background: linear-gradient(to right, #5DAB46, #2DB676) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
