@@ -130,3 +130,7 @@ body {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
+
+.z-100{
+  z-index: 100 !important;
+}

@@ -24,12 +24,12 @@ const header = () => {
                                 <Link href="">
                                     <a className=" white-text opacity-80 self-stretch  hover:opacity-100 ">Start learning</a>
                                 </Link>
-                                <div className="absolute bg-gray-800 rounded-md menu-shadow z-10 left-[-90px] top-[45px] hover-dropdwon">
+                                <div className="absolute bg-gray-800 rounded-md menu-shadow z-100 left-[-90px] top-[45px] hover-dropdwon">
                                     <div className="w-[300px]">
                                         <IoMdArrowDropup className="text-[42px] absolute left-[42%] z-10 top-[-27px] opacity-90 menu-icon-color" />
                                         <ul className="p-4 space-y-8">
                                             <li className="opacity-80 hover:opacity-100">
-                                                <Link href="#">
+                                                <Link href="/learning-path/frontend/">
                                                     <a className="flex flex-col">
                                                         <span className="font-semibold">Frontend learning path </span>
                                                         <span className="text-xs">Become a frontend React web developer by learning through interactive courses</span>
@@ -76,7 +76,7 @@ const header = () => {
                                 <Link href="">
                                     <a>Playgrounds</a>
                                 </Link>
-                                <div className="absolute bg-gray-800 rounded-md menu-shadow z-10 left-[-90px] top-[45px] playground-menu-hover">
+                                <div className="absolute bg-gray-800 rounded-md menu-shadow z-100 left-[-90px] top-[45px] playground-menu-hover">
                                     <div className="w-[600px]">
                                         <IoMdArrowDropup className="text-[42px] absolute left-[42%] z-10 top-[-27px] opacity-90 menu-icon-color" />
                                         <ul className="flex p-4 space-x-2">
