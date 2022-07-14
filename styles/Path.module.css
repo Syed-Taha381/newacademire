@@ -1,0 +1,113 @@
+.javascript{
+    top: 20px;
+    left: 200px;
+    transform: none;
+    transition: .2s;
+}
+
+.javascript:hover{
+    transform: translateX(0px) scale(1.1) translateZ(0px);
+    transition: .2s;
+}
+
+.react{
+    top: 80px;
+    left: 150px;
+    transform: none;
+    transition: .2s;
+}
+
+.react:hover{
+    transform: translateX(0px) scale(1.1) translateZ(0px);
+    transition: .2s;
+}
+
+.node{
+    top: 200px;
+    left: 160px;
+    transform: none;
+    transition: .2s;
+}
+
+.node:hover{
+    transform: translateX(0px) scale(1.1) translateZ(0px);
+    transition: .2s;
+}
+
+.mongo{
+    top: 320px;
+    left: 170px;
+    transform: none;
+    transition: .2s;
+}
+
+.mongo:hover{
+    transform: translateX(0px) scale(1.1) translateZ(0px);
+    transition: .2s;
+}
+
+.git{
+    top: 480px;
+    left: 230px;
+    transform: none;
+    transition: .2s;
+}
+
+.git:hover{
+    transform: translateX(0px) scale(1.1) translateZ(0px);
+    transition: .2s;
+}
+
+.jsImage > span{
+    height: 150px !important;
+    width: 317.337px !important;
+}
+
+.jsImage img{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.reactImage > span{
+    width: 420px !important;
+    height: 175px !important;
+}
+
+.reactImage img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.nodeImage > span{
+    width: 389.375px !important;
+    height: 190px !important;
+}
+
+.nodeImage img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.mongoImage > span{
+    width: 455.013px !important;
+    height: 200px !important;
+}
+
+.mongoImage img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.gitImage > span{
+    width: 549.600px !important;
+    height: 220px !important;
+}
+
+.gitImage img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.pathHeadingShadow{
+    text-shadow: 0 0 2px black;
+}
