@@ -4,7 +4,6 @@ const Subscrib = () => {
 
     const [ToggleState, setToggleState] = useState(2);
     const [counter, setCounter] = useState(60);
-    const [mint, setMint] = useState(45);
 
     const toggleTab = (index) => {
         setToggleState(index);
