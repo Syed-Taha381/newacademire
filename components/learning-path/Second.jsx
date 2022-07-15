@@ -1,92 +1,15 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Instractor from '../../assets/images/instractor.jpg'
+import Accordion from './Accordion'
+import Subscrib from './Subscrib'
 
 const Second = () => {
     return (
         <div className='px-3 mt-8 md:mt-24 md:px-10'>
             <div className='flex flex-col-reverse xl:flex-row'>
                 <div className='jsx-e042a198ce6bf294 flex-grow'>
-                    <div className='jsx-e042a198ce6bf294 block mb-4 text-base font-semibold tracking-wide text-indigo-600 uppercase border-b border-gray-300'>
-                        Learning path contents
-                    </div>
-                    <div className='overflow-hidden border-b border-gray-300'>
-                        <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                                <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                            </div>
-                            <div className='flex items-center space-x-2'>
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Basics of web</span>
-                            </div>
-                        </header>
-                    </div>
-                    <div className='overflow-hidden border-b border-gray-300'>
-                        <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                                <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                            </div>
-                            <div className='flex items-center space-x-2'>
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Basics of web</span>
-                            </div>
-                        </header>
-                    </div>
-                    <div className='overflow-hidden border-b border-gray-300'>
-                        <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                                <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                            </div>
-                            <div className='flex items-center space-x-2'>
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Basics of web</span>
-                            </div>
-                        </header>
-                    </div>
-                    <div className='overflow-hidden border-b border-gray-300'>
-                        <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                                <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                            </div>
-                            <div className='flex items-center space-x-2'>
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Basics of web</span>
-                            </div>
-                        </header>
-                    </div>
-                    <div className='overflow-hidden border-b border-gray-300'>
-                        <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                                <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                            </div>
-                            <div className='flex items-center space-x-2'>
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Basics of web</span>
-                            </div>
-                        </header>
-                    </div>
-                    <div className='overflow-hidden border-b border-gray-300'>
-                        <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                                <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                            </div>
-                            <div className='flex items-center space-x-2'>
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Basics of web</span>
-                            </div>
-                        </header>
-                    </div>
-                    <div className="overflow-hidden ">
-                        <header className="cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow" style={{ fontSize: "1.25em", marginTop: "0px" }}>
-                            <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end"><span>Module 7</span>
-                                <span className="text-xs font-normal">(15 practice labs / 0 lectures / 436 min)</span>
-                            </div>
-                            <div className="flex items-center space-x-2">
-                                <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                                <span className="flex-grow">Official certification</span>
-                            </div>
-                        </header>
-                    </div>
+                    <Accordion />
                     <Link href="#">
                         <a className='flex flex-col items-center justify-center py-6 bg-gradient-to-r sm:space-x-4 sm:flex-row'>
                             <span className='text-3xl text-yellow-400 sm:text-6xl'>
@@ -250,7 +173,8 @@ const Second = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex-shrink-0 w-full xl:w-[500px] flex mb-10 xl:mb-0 justify-center items-start relative'>
+                <Subscrib />
+                {/* <div className='flex-shrink-0 w-full xl:w-[500px] flex mb-10 xl:mb-0 justify-center items-start relative'>
                     <div className='w-full px-4 py-10 bg-white shadow xl:ml-4 xl:sticky xl:top-5'>
                         <div className='divide-y divide-gray-200'>
                             <div>
@@ -264,6 +188,35 @@ const Second = () => {
                                         </div>
                                     </a>
                                 </Link>
+                                <p class="my-2 text-sm text-gray-800">A Pro membership gives you unlimited access to all the courses and interactive labs as long as your membership lasts.</p>
+                                <ul class="text-sm text-gray-800">
+                                    <li>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
+                                        &nbsp; <b>Full Stack Certification</b> from codedamn
+                                    </li>
+                                    <li>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
+                                        &nbsp; <b>Learn by doing</b> - Interactive content with projects
+                                    </li>
+                                    <li>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
+                                        &nbsp; <b>Moneyback guarantee</b> - 14 day full refund
+                                    </li>
+                                    <li>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
+                                        &nbsp; <b>Certification exams</b> - to certify your knowledge
+                                    </li>
+                                    <li>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
+                                        &nbsp; <b>Up to date</b> content relevant in 2022
+                                    </li>
+                                    <li>
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
+                                        &nbsp; <b>Future content updates</b> for free
+                                    </li>
+                                </ul>
+                                <h2 data-testid="pro-price" class="flex-grow mt-2 mb-2 text-3xl font-extrabold">₨1499/mo</h2>
+                                <button data-testid="subscribe-to-cdm-pro-btn" class="w-full px-8 py-2 my-1 text-base font-semibold text-white bg-indigo-600 rounded-lg shadow disabled:opacity-50 disabled:cursor-wait md:text-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200">Subscribe to codedamn Pro</button>
                             </div>
                             <div className='pt-3 mt-3'>
                                 <Link href="#">
@@ -317,7 +270,7 @@ const Second = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

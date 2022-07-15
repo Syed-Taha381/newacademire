@@ -134,3 +134,25 @@ body {
 .z-100{
   z-index: 100 !important;
 }
+
+.content{
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden !important;
+  transition: all .5s cubic-bezier(0,1,0,1);
+}
+
+.content.show{
+  height: auto;
+  max-height: 999px;
+  transition: all .5s cubic-bezier(1,0,1,0);
+}
+
+.content-tab {
+  display: none;
+  cursor: pointer;
+}
+
+.active-content {
+  display: block;
+}
