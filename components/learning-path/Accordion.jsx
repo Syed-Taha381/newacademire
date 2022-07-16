@@ -34,7 +34,7 @@ const Accordion = () => {
                         <p className='pb-2'>{item.moduleInfo}</p>
                         {item.guddi.map((content, e) => (
                             <div className='mb-4' key={e}>
-                                <Link href="#">
+                                <Link href={`${content?.link}`}>
                                     <a className='shadow rounded-lg  bg-white hover:bg-gray-100 overflow-hidden px-4 py-3 flex flex-col lg:flex-row text-left cursor-pointer flex-1'>
                                         <h2 className='flex items-center justify-start flex-grow space-x-1 text-lg font-semibold sm:text-xl'>
                                             <span className='inline-flex items-center justify-center flex-shrink-0 overflow-hidden rounded-full'>
@@ -54,120 +54,6 @@ const Accordion = () => {
                     </section>
                 </div>
             ))}
-            {/* <div className='overflow-hidden border-b border-gray-300'>
-                <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow' style={{ fontSize: "2.25em", marginTop: "32px" }}>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                        <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                    </div>
-                    <div className='flex items-center space-x-2'>
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-3xl rotate-90 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Basics of web</span>
-                    </div>
-                </header>
-                <section className='px-0 lg:px-8'>
-                    <p className='pb-2'>Learn about internet fundamentals, why you are learning what you are learning and the high overview of full-stack.</p>
-                    <div className='mb-4'>
-                        <Link href="#">
-                            <a className='shadow rounded-lg  bg-white hover:bg-gray-100 overflow-hidden px-4 py-3 flex flex-col lg:flex-row text-left cursor-pointer flex-1'>
-                                <h2 className='flex items-center justify-start flex-grow space-x-1 text-lg font-semibold sm:text-xl'>
-                                    <span className='inline-flex items-center justify-center flex-shrink-0 overflow-hidden rounded-full'>
-                                        <svg className="w-12 h-12 text-indigo-700 -rotate-90"><circle className="text-gray-300" strokeWidth="2" stroke="currentColor" fill="transparent" r="18" cx="24" cy="24"></circle><circle className="text-indigo-600" strokeWidth="2" strokeDasharray="113.09733552923255" strokeDashoffset="-113.09733552923255" strokeLinecap="round" stroke="currentColor" fill="transparent" r="18" cx="24" cy="24"></circle></svg>
-                                        <span className="absolute text-xs text-blue-700">0%</span>
-                                    </span>
-                                    <span>Internet Fundamentals</span>
-                                </h2>
-                                <div className="flex items-center space-x-2">
-                                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Free</span>
-                                    <p className="text-sm">7 lectures</p>
-                                </div>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className='mb-4'>
-                        <Link href="#">
-                            <a className='shadow rounded-lg  bg-white hover:bg-gray-100 overflow-hidden px-4 py-3 flex flex-col lg:flex-row text-left cursor-pointer flex-1'>
-                                <h2 className='flex items-center justify-start flex-grow space-x-1 text-lg font-semibold sm:text-xl'>
-                                    <span className='inline-flex items-center justify-center flex-shrink-0 overflow-hidden rounded-full'>
-                                        <svg className="w-12 h-12 text-indigo-700 -rotate-90"><circle className="text-gray-300" strokeWidth="2" stroke="currentColor" fill="transparent" r="18" cx="24" cy="24"></circle><circle className="text-indigo-600" strokeWidth="2" strokeDasharray="113.09733552923255" strokeDashoffset="-113.09733552923255" strokeLinecap="round" stroke="currentColor" fill="transparent" r="18" cx="24" cy="24"></circle></svg>
-                                        <span className="absolute text-xs text-blue-700">0%</span>
-                                    </span>
-                                    <span>HTML/CSS Fundamentals</span>
-                                </h2>
-                                <div className="flex items-center space-x-2">
-                                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Free</span>
-                                    <p className="text-sm">7 lectures</p>
-                                </div>
-                            </a>
-                        </Link>
-                    </div>
-                </section>
-            </div>
-            <div className='overflow-hidden border-b border-gray-300'>
-                <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                        <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                    </div>
-                    <div className='flex items-center space-x-2'>
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Basics of web</span>
-                    </div>
-                </header>
-            </div>
-            <div className='overflow-hidden border-b border-gray-300'>
-                <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                        <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                    </div>
-                    <div className='flex items-center space-x-2'>
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Basics of web</span>
-                    </div>
-                </header>
-            </div>
-            <div className='overflow-hidden border-b border-gray-300'>
-                <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                        <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                    </div>
-                    <div className='flex items-center space-x-2'>
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Basics of web</span>
-                    </div>
-                </header>
-            </div>
-            <div className='overflow-hidden border-b border-gray-300'>
-                <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                        <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                    </div>
-                    <div className='flex items-center space-x-2'>
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Basics of web</span>
-                    </div>
-                </header>
-            </div>
-            <div className='overflow-hidden border-b border-gray-300'>
-                <header className='cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow'>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
-                        <span>Module 1</span><span className="text-xs font-normal">(32 practice labs / 40 lectures / 406 min)</span>
-                    </div>
-                    <div className='flex items-center space-x-2'>
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Basics of web</span>
-                    </div>
-                </header>
-            </div>
-            <div className="overflow-hidden ">
-                <header className="cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow" style={{ fontSize: "1.25em", marginTop: "0px" }}>
-                    <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end"><span>Module 7</span>
-                        <span className="text-xs font-normal">(15 practice labs / 0 lectures / 436 min)</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-lg rotate-0 transition-transform flex-shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M6.23 20.23L8 22l10-10L8 2 6.23 3.77 14.46 12z"></path></svg>
-                        <span className="flex-grow">Official certification</span>
-                    </div>
-                </header>
-            </div> */}
         </section>
     )
 }
@@ -183,13 +69,15 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "/learning/http-fundamentals"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
         ]
 
@@ -204,25 +92,29 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
         ]
 
@@ -237,13 +129,15 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "pro"
+                subjectStatus: "pro",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
         ]
 
@@ -258,13 +152,15 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "Pro"
+                subjectStatus: "Pro",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "Pro"
+                subjectStatus: "Pro",
+                link: "#"
             },
         ]
 
@@ -279,13 +175,15 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "Pro"
+                subjectStatus: "Pro",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "Pro"
+                subjectStatus: "Pro",
+                link: "#"
             },
         ]
 
@@ -300,13 +198,15 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "free"
+                subjectStatus: "free",
+                link: "#"
             },
         ]
 
@@ -321,13 +221,15 @@ const data = [
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "Pro"
+                subjectStatus: "Pro",
+                link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
                 percentage: "0%",
-                subjectStatus: "Pro"
+                subjectStatus: "Pro",
+                link: "#"
             },
         ]
 
