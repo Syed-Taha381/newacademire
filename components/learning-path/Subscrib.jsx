@@ -3,7 +3,26 @@ import { useState, useEffect } from 'react'
 const Subscrib = () => {
 
     const [ToggleState, setToggleState] = useState(2);
-    const [counter, setCounter] = useState(60);
+    const [seconds, setSeconds] = useState(0);
+    const [minutes, setMinutes] = useState(45);
+    useEffect(() => {
+        const myInterval = setInterval(() => {
+            if (seconds > 0) {
+                setSeconds((seconds) => seconds - 1);
+            }
+            if (seconds === 0) {
+                if (minutes === 0) {
+                    clearInterval(myInterval);
+                } else {
+                    setMinutes((minutes) => minutes - 1);
+                    setSeconds(59);
+                }
+            }
+        }, 1000);
+        return () => {
+            clearInterval(myInterval);
+        };
+    });
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -12,9 +31,6 @@ const Subscrib = () => {
     const getActiveClass = (index, className) =>
         ToggleState === index ? className : "";
 
-    useEffect(() => {
-        counter > 0 && setTimeout(() => setCounter(counter - 1), 1000);
-    }, [counter]);
 
     return (
         <div className='flex-shrink-0 w-full xl:w-[500px] flex mb-10 xl:mb-0 justify-center items-start relative'>
@@ -112,7 +128,7 @@ const Subscrib = () => {
                             </div>
                             <p className='flex items-center justify-start mt-2 space-x-2 text-sm text-red-500'>
                                 <svg className="w-4 h-4" viewBox="0 0 24 24"><path fill="currentColor" d="M22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86L22 5.72zM7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM12.5 8H11v6l4.75 2.85.75-1.23-4-2.37V8zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9a9 9 0 000-18zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"></path></svg>
-                                <div>Deal ending <b>in  08h 45m {counter}s</b></div>
+                                <div>Deal ending <b>in  08h {minutes}m {seconds}s</b></div>
                             </p>
                             <div className="bg-green-600 px-2 py-1 rounded text-white text-xs my-1 flex justify-center items-center space-x-2" data-testid="applied-coupon-text">
                                 <span className="text-center flex-shrink-0 mr-2">
