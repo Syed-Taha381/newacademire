@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Structure = () => {
 
-    const [selected, setSelected] = useState(null)
+    const [selected, setSelected] = useState(0)
 
     const toggle = (i) => {
         if (selected === i) {
