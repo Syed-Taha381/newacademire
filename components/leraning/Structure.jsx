@@ -20,11 +20,11 @@ const Structure = () => {
                 <div>
                     {data.map((item, i) => (
                         <div className="w-full mx-auto bg-white" key={i}>
-                            <button className="flex justify-between w-full p-4 text-left text-black bg-gray-100 outline-none ring-1 ring-gray-200" id="headlessui-disclosure-button-5" type="button" aria-expanded="true" aria-controls="headlessui-disclosure-panel-6" onClick={() => toggle(i)}>
+                            <button className="flex justify-between w-full p-4 text-left text-black bg-gray-100 outline-none ring-1 ring-gray-200 transitionPoint4s" id="headlessui-disclosure-button-5" type="button" aria-expanded="true" aria-controls="headlessui-disclosure-panel-6" onClick={() => toggle(i)}>
                                 <h2 className="font-bold">{item.sectionName}</h2>
                                 <div className="flex gap-2 items-center flex-shrink-0 truncate">
                                     <span className="text-sm w-44 truncate md:w-fit md:max-w-lg">({item.totalTime})</span>
-                                    <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" className={`${selected === i ? "w-5 h-5 flex-shrink-0 transition duration-150 text-sm md:text-base rotate-180" : "text-lg rotate-0 transition-transform flex-shrink-0"}`} height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg>
+                                    <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" className={`${selected === i ? "w-5 h-5 flex-shrink-0 transition duration-150 text-sm md:text-base rotate-180 transitionPoint4s" : "text-lg rotate-0 transition-transform flex-shrink-0 transitionPoint4s"}`} height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg>
                                 </div>
                             </button>
 
