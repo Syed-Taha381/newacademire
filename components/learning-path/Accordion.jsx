@@ -19,7 +19,7 @@ const Accordion = () => {
             </div>
             {data.map((item, i) => (
                 <div className='overflow-hidden border-b border-gray-300' key={i}>
-                    <header className={`${selected === i ? "cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow text-[2.25rem] mt-[32px] " : "cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow"}`} onClick={() => toggle(i)}>
+                    <header className={`${selected === i ? "cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow text-[2.25rem] mt-[32px] transitionPoint4s" : "cursor-pointer px-3 py-4 select-none text-xl hover:bg-gray-100 hover:shadow transitionPoint4s"}`} onClick={() => toggle(i)}>
                         <div className="flex flex-col text-sm font-bold sm:flex-row sm:justify-between sm:items-end">
                             <span>{item.module}</span><span className="text-xs font-normal">{`(${item.lectures})`}</span>
                         </div>
@@ -39,7 +39,7 @@ const Accordion = () => {
                                         <h2 className='flex items-center justify-start flex-grow space-x-1 text-lg font-semibold sm:text-xl'>
                                             <span className='inline-flex items-center justify-center flex-shrink-0 overflow-hidden rounded-full'>
                                                 <svg className="w-12 h-12 text-indigo-700 -rotate-90"><circle className="text-gray-300" strokeWidth="2" stroke="currentColor" fill="transparent" r="18" cx="24" cy="24"></circle><circle className="text-indigo-600" strokeWidth="2" strokeDasharray="113.09733552923255" strokeDashoffset="-113.09733552923255" strokeLinecap="round" stroke="currentColor" fill="transparent" r="18" cx="24" cy="24"></circle></svg>
-                                                {/* <span className="absolute text-xs text-blue-700">{content.percentage}</span> */}
+                                                {/* <span className="absolute text-xs text-blue-700">{content.percentage}%</span> */}
                                             </span>
                                             <span>{content.lectureName}</span>
                                         </h2>
@@ -68,14 +68,14 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "/learning/http-fundamentals"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
@@ -91,28 +91,28 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
@@ -128,14 +128,14 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "pro",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
@@ -151,14 +151,14 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "Pro",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "Pro",
                 link: "#"
             },
@@ -174,14 +174,14 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "Pro",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "Pro",
                 link: "#"
             },
@@ -197,14 +197,14 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "free",
                 link: "#"
             },
@@ -220,14 +220,14 @@ const data = [
             {
                 lectureName: "Internet Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "Pro",
                 link: "#"
             },
             {
                 lectureName: "HTML/CSS Fundamentals",
                 lectureNumber: "7 lectures",
-                percentage: "0%",
+                percentage: "0",
                 subjectStatus: "Pro",
                 link: "#"
             },

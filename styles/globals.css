@@ -156,3 +156,7 @@ body {
 .active-content {
   display: block;
 }
+
+.transitionPoint4s{
+  transition: .4s;
+}
