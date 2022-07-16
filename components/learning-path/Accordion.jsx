@@ -11,7 +11,6 @@ const Accordion = () => {
         }
         setSelected(i)
     }
-
     return (
         <section>
             <div className='jsx-e042a198ce6bf294 block mb-4 text-base font-semibold tracking-wide text-indigo-600 uppercase border-b border-gray-300'>

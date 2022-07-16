@@ -11,7 +11,7 @@ const Explore = () => {
         <section className='relative py-12 overflow-hidden bg-gray-100'>
             <div className='max-w-4xl px-4 mx-auto sm:px-6 lg:px-8'>
                 <p className='text-sm font-semibold tracking-wide text-center text-gray-500 uppercase'>
-                    Over 60,000+ people use codedamn today. <br />
+                    Over 60,000+ people use Academire today. <br />
                     Learn modern programming skills and become eligible to work at top companies.
                 </p>
                 <div className='flex items-center justify-center mt-6 -ml-6 space-x-4'>

@@ -15,7 +15,7 @@ const header = () => {
                             <span className={`${Styles.Logospan}`} >
                                 <Image src={LogoIcon} className={`${Styles.Logo}`} alt="Logo" />
                             </span>
-                            {/* <span className="text-[20px] leading-[28px] white-text font-semibold ml-[8px]">codedamn</span> */}
+                            {/* <span className="text-[20px] leading-[28px] white-text font-semibold ml-[8px]">Academire</span> */}
                         </a>
                     </Link>
                     <nav>

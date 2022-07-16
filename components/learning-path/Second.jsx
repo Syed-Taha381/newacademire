@@ -122,7 +122,7 @@ const Second = () => {
                                 <ul class="text-sm text-gray-800">
                                     <li>
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
-                                        &nbsp; <b>Full Stack Certification</b> from codedamn
+                                        &nbsp; <b>Full Stack Certification</b> from Academire
                                     </li>
                                     <li>
                                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="inline" color="green" font-size="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>
@@ -146,7 +146,7 @@ const Second = () => {
                                     </li>
                                 </ul>
                                 <h2 data-testid="pro-price" class="flex-grow mt-2 mb-2 text-3xl font-extrabold">₨1499/mo</h2>
-                                <button data-testid="subscribe-to-cdm-pro-btn" class="w-full px-8 py-2 my-1 text-base font-semibold text-white bg-indigo-600 rounded-lg shadow disabled:opacity-50 disabled:cursor-wait md:text-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200">Subscribe to codedamn Pro</button>
+                                <button data-testid="subscribe-to-cdm-pro-btn" class="w-full px-8 py-2 my-1 text-base font-semibold text-white bg-indigo-600 rounded-lg shadow disabled:opacity-50 disabled:cursor-wait md:text-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200">Subscribe to Academire Pro</button>
                             </div>
                             <div className='pt-3 mt-3'>
                                 <Link href="#">
@@ -161,7 +161,7 @@ const Second = () => {
                                 <p className="my-2 text-sm text-gray-800">Get complete access to current + future updates to this learning path for one flat fee.</p>
                                 <ul className='text-sm text-gray-800'>
                                     <li>
-                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" className="inline" color="green" fontSize="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>&nbsp; <b>Learning Path Certification</b> from codedamn
+                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" className="inline" color="green" fontSize="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>&nbsp; <b>Learning Path Certification</b> from Academire
                                     </li>
                                     <li>
                                         <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" className="inline" color="green" fontSize="22" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ color: "green" }}><path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"></path></svg>&nbsp; <b>Learn by doing</b> - Interactive content with projects

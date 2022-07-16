@@ -16,7 +16,7 @@ const footer = () => {
                                     <span className={`${Styles.Logospan}`} >
                                         <Image src={LogoIcon} className={`${Styles.Logo}`} alt="Logo" />
                                     </span>
-                                    {/* <span className="text-[20px] leading-[28px] white-text font-semibold ml-[8px]">codedamn</span> */}
+                                    {/* <span className="text-[20px] leading-[28px] white-text font-semibold ml-[8px]">Academire</span> */}
                                 </a>
                             </Link>
                             <p className='text-gray-300 text-base'>Learn to code interactively - without ever leaving your browser.</p>
@@ -123,7 +123,7 @@ const footer = () => {
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a className="text-base text-gray-300 hover:text-white">Write on codedamn</a>
+                                            <a className="text-base text-gray-300 hover:text-white">Write on Academire</a>
                                         </Link>
                                     </li>
                                     <li>
