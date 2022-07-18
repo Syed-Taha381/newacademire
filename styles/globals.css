@@ -131,21 +131,21 @@ body {
   -webkit-text-fill-color: transparent !important;
 }
 
-.z-100{
+.z-100 {
   z-index: 100 !important;
 }
 
-.content{
+.content {
   color: #000;
   max-height: 0;
   overflow: hidden !important;
-  transition: all .5s cubic-bezier(0,1,0,1);
+  transition: all .5s cubic-bezier(0, 1, 0, 1);
 }
 
-.content.show{
+.content.show {
   height: auto;
   max-height: 999px;
-  transition: all .5s cubic-bezier(1,0,1,0);
+  transition: all .5s cubic-bezier(1, 0, 1, 0);
 }
 
 .content-tab {
@@ -157,6 +157,25 @@ body {
   display: block;
 }
 
-.transitionPoint4s{
+.transitionPoint4s {
   transition: .4s;
+}
+
+.course-input:focus-visible {
+  outline: none !important;
+  border: 2px solid #2563eb !important;
+}
+
+.react-multi-carousel-item {
+  width: 225px !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(0% + 0px) !important;
+  top: 30% !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(0% + 0px) !important;
+  top: 30% !important;
 }
