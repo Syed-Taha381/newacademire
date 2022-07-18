@@ -51,7 +51,7 @@ const Course = () => {
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -74,7 +74,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -97,7 +97,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -120,7 +120,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -143,7 +143,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -166,7 +166,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -189,7 +189,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -212,7 +212,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -252,7 +252,7 @@ const Course = () => {
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -275,7 +275,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -298,7 +298,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -321,7 +321,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -344,7 +344,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -367,7 +367,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -390,7 +390,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -413,7 +413,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -453,7 +453,7 @@ const Course = () => {
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -476,7 +476,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -499,7 +499,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -522,7 +522,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -545,7 +545,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -568,7 +568,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -591,7 +591,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -614,7 +614,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -654,7 +654,7 @@ const Course = () => {
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
@@ -677,7 +677,7 @@ const Course = () => {
                 </Link>
               </figure>
               <figure className="overflow-hidden flex-none my-2">
-                <Link href="#">
+                <Link href="/learning/http-fundamentals">
                   <a className="flex flex-col z-10 relative overflow-hidden h-full">
                     <span className={Styles.courseImg}>
                       <Image src={CourseImage} alt="Cousre Thumbnail" />
