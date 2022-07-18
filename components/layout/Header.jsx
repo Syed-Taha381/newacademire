@@ -66,8 +66,8 @@ const header = () => {
                                         <Link href="/learning-path">
                                             <a className="flex-shrink-0 m-2 block w-full px-6 py-2 text-sm font-semibold text-center  bg-gray-900 hover:bg-gray-700 border-gray-800 border rounded-md md:w-auto">Explore All Paths</a>
                                         </Link>
-                                        <Link href="#">
-                                            <a className="flex-shrink-0 m-2 block w-full px-6 py-2 text-sm font-semibold text-center  bg-gray-900 hover:bg-gray-700 border-gray-800 border rounded-md md:w-auto">Explore All Paths</a>
+                                        <Link href="/courses">
+                                            <a className="flex-shrink-0 m-2 block w-full px-6 py-2 text-sm font-semibold text-center  bg-gray-900 hover:bg-gray-700 border-gray-800 border rounded-md md:w-auto">Explore All Courses</a>
                                         </Link>
                                     </div>
                                 </div>
