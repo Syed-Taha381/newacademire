@@ -48,8 +48,9 @@ const header = () => {
                                                 <Link href="#">
                                                     <a className="flex flex-col">
                                                         <span className="font-semibold">Full-stack learning path
-                                                            <span className="inline-flex items-center px-2 rounded-full text-xs font-medium bg-purple-100 text-purple-800">Popular</span>
-                                                        </span><span className="text-xs">Become a full-stack web developer by learning through interactive courses</span>
+                                                            <span className="inline-flex items-center px-2 rounded-full text-xs font-medium bg-purple-100 text-purple-800 ml-[3px]">Popular</span>
+                                                        </span>
+                                                        <span className="text-xs">Become a full-stack web developer by learning through interactive courses</span>
                                                     </a>
                                                 </Link>
                                             </li>
@@ -57,8 +58,9 @@ const header = () => {
                                                 <Link href="#">
                                                     <a className="flex flex-col">
                                                         <span className="font-semibold">Web 3.0 And Blockchain
-                                                            <span className="inline-flex items-center px-2 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">Beta</span>
-                                                        </span><span className="text-xs">Start your Web 3.0 journey building with ethereum, solidity, and more</span>
+                                                            <span className="inline-flex items-center px-2 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 ml-[3px]">Beta</span>
+                                                        </span>
+                                                        <span className="text-xs">Start your Web 3.0 journey building with ethereum, solidity, and more</span>
                                                     </a>
                                                 </Link>
                                             </li>
