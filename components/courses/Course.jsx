@@ -9,7 +9,6 @@ const Course = () => {
 
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -25,7 +24,7 @@ const Course = () => {
       breakpoint: { max: 464, min: 0 },
       items: 1
     }
-  };
+  }
 
   return (
     <div className='flex-grow bg-gray-50 pt-12'>
@@ -47,7 +46,7 @@ const Course = () => {
               keyBoardControl={true}
               customTransition="all .5"
               transitionDuration={500}
-              containerClass="carousel-container"
+              containerclassName="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
@@ -248,7 +247,7 @@ const Course = () => {
               keyBoardControl={true}
               customTransition="all .5"
               transitionDuration={500}
-              containerClass="carousel-container"
+              containerclassName="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
@@ -449,7 +448,7 @@ const Course = () => {
               keyBoardControl={true}
               customTransition="all .5"
               transitionDuration={500}
-              containerClass="carousel-container"
+              containerclassName="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">
@@ -650,7 +649,7 @@ const Course = () => {
               keyBoardControl={true}
               customTransition="all .5"
               transitionDuration={500}
-              containerClass="carousel-container"
+              containerclassName="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
             >
               <figure className="overflow-hidden flex-none my-2">

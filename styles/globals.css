@@ -179,3 +179,18 @@ body {
   right: calc(0% + 0px) !important;
   top: 30% !important;
 }
+
+.teslaImage>span {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.teslaImage img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.border-1rem img{
+  border-radius: 1rem;
+}
