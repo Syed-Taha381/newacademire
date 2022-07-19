@@ -8,7 +8,7 @@ import HTML from '../../assets/images/html.png'
 const header = () => {
     return (
         <div className='black-bg'>
-            <div className="main-container text-white py-[16px] px-[24px]">
+            <div className="main-container text-white py-[5px] px-[5px]">
                 <div className="flex items-center justify-between">
                     <Link href="/">
                         <a className="flex items-center mt-[8px]">
