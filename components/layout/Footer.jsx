@@ -93,7 +93,7 @@ const footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/pricing">
                                             <a className="text-base text-gray-300 hover:text-white">Pricing</a>
                                         </Link>
                                     </li>

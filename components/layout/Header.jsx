@@ -170,7 +170,7 @@ const header = () => {
                                 </div>
                             </li>
                             <li className="px-[12px] text-[16px] leading-[24px] font-medium white-text opacity-80 self-stretch hover:opacity-100  cursor-pointer">
-                                <Link href="#">
+                                <Link href="/pricing">
                                     <a>Pricing</a>
                                 </Link>
                             </li>
