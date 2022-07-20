@@ -7,7 +7,7 @@ const projects = () => {
     return (
         <div>
             <Head>
-                <title>Browse All Courses | Academire</title>
+                <title>Browse All Projects | Academire</title>
                 <meta name="description" content="Browse All Courses" />
             </Head>
             <div>

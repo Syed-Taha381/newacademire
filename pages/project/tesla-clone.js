@@ -6,7 +6,7 @@ const TeslaClone = () => {
     return (
         <div>
             <Head>
-                <title>Browse All Courses | Academire</title>
+                <title>Tesla Clone | Academire</title>
                 <meta name="description" content="Browse All Courses" />
             </Head>
             <div>

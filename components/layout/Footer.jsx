@@ -88,7 +88,7 @@ const footer = () => {
                                 </h3>
                                 <ul className="mt-4 space-y-4">
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/contact">
                                             <a className="text-base text-gray-300 hover:text-white">Contact us</a>
                                         </Link>
                                     </li>
