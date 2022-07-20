@@ -66,12 +66,12 @@ const footer = () => {
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
                                 <ul className="mt-4 space-y-4">
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/learning-path">
                                             <a className="text-base text-gray-300 hover:text-white">Learning paths</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/learning-path/frontend">
                                             <a className="text-base text-gray-300 hover:text-white">Become a full stack web developer</a>
                                         </Link>
                                     </li>
@@ -98,8 +98,8 @@ const footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a className="text-base text-gray-300 hover:text-white">Contact us</a>
+                                        <Link href="/register">
+                                            <a className="text-base text-gray-300 hover:text-white">Create a free account</a>
                                         </Link>
                                     </li>
                                 </ul>

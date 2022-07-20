@@ -33,7 +33,6 @@ const MainSection = () => {
                                 <div className='flex-1 bg-white p-6 flex flex-col justify-between'>
                                     <div className='flex-1'>
                                         <p className="flex flex-wrap flex-row">
-
                                             {item.projectTags.map((tags, l) => (
                                                 <span className="inline-flex items-center mx-1 my-0.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800" key={l}>{tags.tag}</span>
                                             ))}

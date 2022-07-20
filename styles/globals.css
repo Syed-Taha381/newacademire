@@ -191,6 +191,29 @@ body {
   object-fit: cover !important;
 }
 
-.border-1rem img{
+.border-1rem img {
   border-radius: 1rem;
+}
+
+.community-img>span {
+  width: 100% !important;
+  height: 212.988px !important;
+}
+
+.community-img img {
+  width: 100% !important;
+  height: 212.988px !important;
+  object-fit: cover;
+}
+
+.ChuttiyaImage>span {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+}
+
+.ChuttiyaImage img {
+  width: 32px !important;
+  height: 32px !important;
+  object-fit: cover;
 }
