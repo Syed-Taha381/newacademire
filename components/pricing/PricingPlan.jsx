@@ -102,7 +102,7 @@ const PricingPlan = () => {
                                     </td>
                                 </tr>
                                 <tr className="border-t border-gray-200">
-                                    <th className="py-5 px-4 text-sm font-normal text-gray-500 text-left" scope="row">Official codedamn certification</th>
+                                    <th className="py-5 px-4 text-sm font-normal text-gray-500 text-left" scope="row">Official Academire certification</th>
                                     <td className="py-5">
                                         <span className="ml-auto">
                                             <svg width="22" height="22" viewBox="0 0 16 16" version="1.1" fill="#cb2431"><path fillRule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -161,7 +161,7 @@ const PricingPlan = () => {
                                     </td>
                                 </tr>
                                 <tr className="border-t border-gray-200">
-                                    <th className="py-5 px-4 text-sm font-normal text-gray-500 text-left" scope="row">Official codedamn certification</th>
+                                    <th className="py-5 px-4 text-sm font-normal text-gray-500 text-left" scope="row">Official Academire certification</th>
                                     <td className="py-5">
                                         <span className="ml-auto">
                                             <svg width="22" height="22" viewBox="0 0 12 16" version="1.1" fill="#2ebc4f"><path fillRule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
@@ -313,17 +313,17 @@ const PricingPlan = () => {
                                 </div>
                                 <div>
                                     <dt className="text-lg leading-6 font-medium text-gray-900">Is the Pro plan suitable if I am a complete beginner?</dt>
-                                    <dd className="mt-2 text-base text-gray-500">Absolutely. You can pick a codedamn learning path, for example, Fullstack Web Developer learning path, and it assumes no prior knowledge (starts from basics). You only need to be willing to put in the effort to make a change for yourself. Trust us, we&apos;ll do the rest</dd>
+                                    <dd className="mt-2 text-base text-gray-500">Absolutely. You can pick a Academire learning path, for example, Fullstack Web Developer learning path, and it assumes no prior knowledge (starts from basics). You only need to be willing to put in the effort to make a change for yourself. Trust us, we&apos;ll do the rest</dd>
                                 </div>
                                 <div>
                                     <dt className="text-lg leading-6 font-medium text-gray-900">I am unable to pay through my Amex card. What should I do?</dt>
                                     <dd className="mt-2 text-base text-gray-500">
-                                        <div>We use Stripe as our payment provider and unfortunately Stripe does not support Amex cards for codedamn because of some country policy issues. Please try with a Master/Visa card and your payment should work fine.</div>
+                                        <div>We use Stripe as our payment provider and unfortunately Stripe does not support Amex cards for Academire because of some country policy issues. Please try with a Master/Visa card and your payment should work fine.</div>
                                     </dd>
                                 </div>
                                 <div>
                                     <dt className="text-lg leading-6 font-medium text-gray-900">Is there any student discount?</dt>
-                                    <dd className="mt-2 text-base text-gray-500">Yes. We offer discount to school and university students. Please reach out with a valid proof of enrolment in school/university: support@codedamn.com</dd>
+                                    <dd className="mt-2 text-base text-gray-500">Yes. We offer discount to school and university students. Please reach out with a valid proof of enrolment in school/university: support@academire.com</dd>
                                 </div>
                                 <div>
                                     <dt className="text-lg leading-6 font-medium text-gray-900">How can I cancel my subscription?</dt>
