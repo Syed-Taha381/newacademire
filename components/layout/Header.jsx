@@ -29,7 +29,7 @@ const header = () => {
                                         <IoMdArrowDropup className="text-[42px] absolute left-[42%] z-10 top-[-27px] opacity-90 menu-icon-color" />
                                         <ul className="p-4 space-y-8">
                                             <li className="opacity-80 hover:opacity-100">
-                                                <Link href="/learning-path/frontend/">
+                                                <Link href="/learning-paths/frontend/">
                                                     <a className="flex flex-col">
                                                         <span className="font-semibold">Frontend learning path </span>
                                                         <span className="text-xs">Become a frontend React web developer by learning through interactive courses</span>
@@ -65,7 +65,7 @@ const header = () => {
                                                 </Link>
                                             </li>
                                         </ul>
-                                        <Link href="/learning-path">
+                                        <Link href="/learning-paths">
                                             <a className="flex-shrink-0 m-2 block w-full px-6 py-2 text-sm font-semibold text-center  bg-gray-900 hover:bg-gray-700 border-gray-800 border rounded-md md:w-auto">Explore All Paths</a>
                                         </Link>
                                         <Link href="/courses">

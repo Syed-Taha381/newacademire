@@ -16,7 +16,7 @@ const SideArea = () => {
                 <div className='my-6'>
                     <h1 className='font-semibold text-left border-b border-gray-200 uppercase text-xl md:mx-5'>Featured Path</h1>
                     <div className='block mx-1 md:mx-5 my-6 space-y-4'>
-                        <Link href="/learning-path/frontend">
+                        <Link href="/learning-paths/frontend">
                             <a className='cursor-pointer flex flex-col bg-white overflow-hidden border border-gray-200 rounded-lg'>
                                 <div className='flex-grow px-4 py-5 sm:p-6'>
                                     <div className='block w-full md:flex md:space-x-4 md:items-center'>

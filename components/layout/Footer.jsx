@@ -66,12 +66,12 @@ const footer = () => {
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
                                 <ul className="mt-4 space-y-4">
                                     <li>
-                                        <Link href="/learning-path">
+                                        <Link href="/learning-paths">
                                             <a className="text-base text-gray-300 hover:text-white">Learning paths</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/learning-path/frontend">
+                                        <Link href="/learning-paths/frontend">
                                             <a className="text-base text-gray-300 hover:text-white">Become a full stack web developer</a>
                                         </Link>
                                     </li>

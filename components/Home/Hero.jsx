@@ -12,7 +12,7 @@ const Hero = () => {
                         </h1>
                         <p className='mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl'>Build projects, practice and learn to code from scratch - without leaving your browser.</p>
                         <div className='mt-10 sm:mt-12'>
-                            <Link href="#">
+                            <Link href="/learning-paths">
                                 <a className='block w-full px-4 py-3 font-medium text-center md:text-lg text-white rounded-md shadow all-button  from-indigo-500 to-cyan-600'>
                                     Explore All Roadmaps
                                 </a>
