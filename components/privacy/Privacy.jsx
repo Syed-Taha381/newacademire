@@ -73,7 +73,7 @@ const Privacy = () => {
                     <h3>How Can I Edit my academire Data?</h3>
                     <p className="my-[1.25em] leading-[28px]">You can edit your data at any time from your profile page here.</p>
                     <h3>How long does academire retain Customer Data? Will academire delete customer data when requests?</h3>
-                    <p className="my-[1.25em] leading-[28px]">academire maintains all customer data until we mark users as &quot;non-active&quot; or a customer deletes their own account. User can delete their own accounts and data <Link href="#"><a>here</a></Link>.</p>
+                    <p className="my-[1.25em] leading-[28px]">academire maintains all customer data until we mark users as &quot;non-active&quot; or a customer deletes their own account. User can delete their own accounts and data <Link href="#"><a className="black-color underline-offset-2 font-medium decoration-2 new-color">here</a></Link>.</p>
                     <h3>How Can I download my academire Data?</h3><p className="my-[1.25em] leading-[28px]">Our customer support team will be happy to help you here. You can reach them via support@academire.com</p>
                     <h2 className="text-[24px] font-bold mb-[0.8888889em] leading-[1.1111111] uppercase">How to Contact Us</h2>
                     <p className="my-[1.25em] leading-[28px]">If you have any questions about this Privacy Policy or the Service, please contact us at support@academire.com or at <Link href="/contact"><a className="black-color underline-offset-2 font-medium decoration-2 new-color">https://academire.com/contact</a></Link></p>
