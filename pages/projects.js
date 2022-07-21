@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout/Layout'
-import NavBar from '../components/learning-pathss/NavBar'
+import NavBar from '../components/learning-paths/NavBar'
 import MainSection from '../components/projects/MainSection'
 
 const projects = () => {

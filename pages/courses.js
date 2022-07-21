@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout/Layout'
-import NavBar from '../components/learning-pathss/NavBar'
+import NavBar from '../components/learning-paths/NavBar'
 import Course from '../components/courses/Course.jsx'
 
 const Courses = () => {
