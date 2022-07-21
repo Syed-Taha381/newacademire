@@ -147,7 +147,7 @@ const footer = () => {
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
                                 <ul className="mt-4 space-y-4">
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/privacy-policy">
                                             <a className="text-base text-gray-300 hover:text-white">Privacy</a>
                                         </Link>
                                     </li>
