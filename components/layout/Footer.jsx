@@ -152,7 +152,7 @@ const footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="/terms-of-service">
                                             <a className="text-base text-gray-300 hover:text-white">Terms</a>
                                         </Link>
                                     </li>

@@ -6,7 +6,7 @@ const pricing = () => {
     return (
         <div>
             <Head>
-                <title>Academire Pricing Plans | Academire</title>
+                <title>Privacy Policy | Academire</title>
                 <meta name="description" content="Browse All Courses" />
             </Head>
             <div>
