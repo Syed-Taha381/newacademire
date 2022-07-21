@@ -21,6 +21,17 @@ body {
   background-color: #171717;
 }
 
+
+
+.black-color {
+  color: #171717;
+  text-underline-offset: 1px;
+  text-decoration: underline !important;
+}
+.black-color:hover {
+  color: #525252;
+}
+
 .white-text {
   color: #f5f5f5;
 }
